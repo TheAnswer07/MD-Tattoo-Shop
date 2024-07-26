@@ -1,0 +1,46 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-family: roboto, arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo,
+.nav-btns,
+.nav-input {
+    display: inline-block;
+}
+
+.creations {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.creations img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.creations prod-info {
+    display: block;
+    align-items: center; 
+}
+
+.nav button {
+    background-color: rgb(77, 71, 71);
+    
+}
+
+.nav input {
+    background-color: rgb(77, 71, 71);
+}
