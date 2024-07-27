@@ -13,6 +13,10 @@ p {
 .nav-btns,
 .nav-input {
     display: inline-block;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .creations {
@@ -38,7 +42,11 @@ p {
 
 .nav button {
     background-color: rgb(77, 71, 71);
-    
+    font-size: 17px;
+    font-weight: 550;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .nav input {
