@@ -1,0 +1,59 @@
+.nav {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: blue;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.nav-btns {
+background-color: wheat;
+flex: 1;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.search-section {
+    background-color: green;
+    width: 300px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+/* .logo,
+.nav-btns,
+.nav-input {
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.nav button {
+    background-color: rgb(77, 71, 71);
+    font-size: 17px;
+    font-weight: 550;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.nav input {
+    background-color: rgb(77, 71, 71);
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row
+} */
