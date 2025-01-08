@@ -1,59 +1,107 @@
-.nav {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+.search-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.351);
+    background-color: rgba(2, 2, 2, 0.84);
+    border-radius: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.search-section:hover {
+    box-shadow: 0 0 10px rgba(107, 120, 127, 0.715);
+}
+
+.search-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.search-section i {
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.429);
+}
+
+.creas-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 17px;
+}
+
+
+
+
+
+
+
+
+/* .nav {
     height: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
+    margin-top: 20px;
+    align-items: center;
+} */
 
-.logo {
+/* .logo {
     background-color: blue;
-    width: 150px;
-    margin-left: 50px;
-}
-
-.nav-btns {
-background-color: wheat;
-flex: 1;
-margin-left: 50px;
-margin-right: 50px;
-}
-
-.search-section {
-    background-color: green;
-    width: 300px;
-    margin-right: 50px;
-}
-
-
-
-
-
-
-
-/* .logo,
-.nav-btns,
-.nav-input {
-    display: inline-block;
-    font-size: 17px;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.nav button {
-    background-color: rgb(77, 71, 71);
-    font-size: 17px;
-    font-weight: 550;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.nav input {
-    background-color: rgb(77, 71, 71);
-}
-
-.nav-elements {
     display: flex;
-    flex-direction: row
+    width: 100px;
+    margin-left: 50px;
+    align-items: center;
+} */
+
+/* .nav-btns {
+display: flex;
+background-color: wheat;
+align-items: center;
+max-width: 800px;
+min-width: 300px;
+flex-direction: row;
+} */
+
+/* .nav-btns, button {
+    flex: 1;
+    font-size: 17px;
+    height: 40px;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(67, 42, 165, 0.486);
+    border-radius: 7px;
+    min-width: 90px;
+} */
+
+/* .search-btn {
+    height: 43px; 
+    border-style: solid;
+    border-color: rgba(85, 84, 84, 0.402);
+    border-radius: 7px; 
+    background-color: white;
+} */
+
+/* .search-icon {
+    height: 30px;
+    margin-top: 2px;
 } */
