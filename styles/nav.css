@@ -7,13 +7,44 @@ body {
     min-height: 100vh;
 }
 
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav a:hover {
+    background-color: rgba(158, 162, 163, 0.25);
+}
+
+nav li:first-child {
+margin-right: auto;
+}
+
+nav li:last-child {
+    margin-left: auto;
+    }
 .search-section {
     position: relative;
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    width: 30%;
+    width: 90%;
     margin: 0 auto;
     border: 1px solid rgba(255, 255, 255, 0.351);
     background-color: rgba(2, 2, 2, 0.84);
