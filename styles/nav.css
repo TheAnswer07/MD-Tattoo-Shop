@@ -5,6 +5,7 @@
 
 body {
     min-height: 100vh;
+     margin-right: 20px;
 }
 
 nav ul {
@@ -72,7 +73,7 @@ nav li:last-child {
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
     border: 1px solid rgba(255, 255, 255, 0.351);
     background-color: rgba(2, 2, 2, 0.84);
@@ -106,7 +107,7 @@ nav li:last-child {
     row-gap: 17px;
 }
 
-.menu {
+.menu-btn {
     display: none;
 }
 
@@ -114,7 +115,7 @@ nav li:last-child {
     .hideOnMobile {
         display: none;
     }
-    .menu {
+    .menu-btn {
         display: block;
     }
 }
