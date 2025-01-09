@@ -94,7 +94,7 @@ nav li:last-child {
     width: 100%;
 }
 
-.search-section {
+/* .search-section {
     position: relative;
     display: flex;
     align-items: center;
@@ -105,26 +105,26 @@ nav li:last-child {
     background-color: rgba(2, 2, 2, 0.84);
     border-radius: 15px;
     transition: box-shadow 0.3s;
-}
+} */
 
-.search-section:hover {
+/* .search-section:hover {
     box-shadow: 0 0 10px rgba(107, 120, 127, 0.715);
-}
+} */
 
-.search-section input {
+/* .search-section input {
     width: 100%;
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 15px;
-}
+} */
 
-.search-section i {
+/* .search-section i {
     font-size: 17px;
     cursor: pointer;
     margin-right: 10px;
     color: rgba(255, 255, 255, 0.429);
-}
+} */
 
 .intro {
     font-family: cursive;
