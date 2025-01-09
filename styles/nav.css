@@ -6,7 +6,7 @@
 body {
     min-height: 100vh;
     /* margin-right: 20px; */
-    padding-top: 150px;
+    padding-top: 500px;
 }
 
 body::-webkit-scrollbar {
@@ -27,6 +27,8 @@ nav {
     overflow: hidden;
     top: 0;
     margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 nav ul {
@@ -37,7 +39,6 @@ nav ul {
     align-items: center;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 20px;
     margin-right: 20px;
 }
 
