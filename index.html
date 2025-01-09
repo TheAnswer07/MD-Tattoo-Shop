@@ -19,37 +19,48 @@
 
     <nav class="nav">
         <ul class="sidebar">
-            <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="21px" viewBox="0 -960 960 960" width="21px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="21px"
+                        viewBox="0 -960 960 960" width="21px" fill="#5f6368">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
             <li><a href="#">Creations</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Artists</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">
-                <div class="search-section" action="/assets/search-icon.svg" style="margin:auto;max-width:300px">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search...">
-                </div>
-            </a>
+                    <div class="search-section" action="/assets/search-icon.svg" style="margin:auto;max-width:300px">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </a>
             </li>
         </ul>
 
         <ul>
-             <li><a href="#"><img class="logo-img" src="./assets/logo/LogoYizmoD.png" alt="logo" height="50px"></a></li>
+            <li><a href="#"><img class="logo-img" src="./assets/logo/LogoYizmoD.png" alt="logo" height="50px"></a></li>
             <li class="hideOnMobile"><a href="#">Creations</a></li>
             <li class="hideOnMobile"><a href="#">About us</a></li>
             <li class="hideOnMobile"><a href="#">Artists</a></li>
             <li class="hideOnMobile"><a href="#">Contact</a></li>
             <li class="hideOnMobile"><a href="#">
-                <div class="search-section" action="/assets/search-icon.svg" style="margin:auto;max-width:300px">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search...">
-                </div>
-            </a>
+                    <div class="search-section" action="/assets/search-icon.svg" style="margin:auto;max-width:300px">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </a>
             </li>
-            <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="31px" viewBox="0 -960 960 960" width="31px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="31px"
+                        viewBox="0 -960 960 960" width="31px" fill="#5f6368">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
         </ul>
     </nav>
-<section class="creas-grid">
+
+    
+        <p class="intro">Welcome to our wonderful Tattoo World!</p>
+   
+    <section class="creas-grid">
         <div class="creations">
             <div class="creas-row">
                 <img class="img-1" src="./assets/allef-vinicius-HytxhklbdJ8-unsplash.jpeg" alt="">
@@ -170,18 +181,18 @@
                 <p class="artist">Creator/Brand</p>
             </div>
         </div>
-</section>
-<script>
-    function showSidebar(){
-        const sidebar = document.querySelector('.sidebar');
-        sidebar.style.display = 'flex';
-    }
+    </section>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex';
+        }
 
-    function closeSidebar(){
-        const sidebar = document.querySelector('.sidebar');
-        sidebar.style.display = 'none';
-    }
-</script>
+        function closeSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

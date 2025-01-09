@@ -5,7 +5,8 @@
 
 body {
     min-height: 100vh;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    padding-top: 150px;
 }
 
 body::-webkit-scrollbar {
@@ -25,6 +26,7 @@ nav {
     position: fixed;
     overflow: hidden;
     top: 0;
+    margin-right: 50px;
 }
 
 nav ul {
@@ -33,8 +35,8 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -56,12 +58,16 @@ nav a:hover {
     background-color: rgba(158, 162, 163, 0.25);
 }
 
-nav li:first-child {
+nav ul:first-child {
     margin-right: auto;
 }
 
 nav li:last-child {
     margin-left: auto;
+}
+
+.logo-img {
+    padding-right: 0;
 }
 
 .sidebar {
@@ -93,7 +99,7 @@ nav li:last-child {
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     border: 1px solid rgba(255, 255, 255, 0.351);
     background-color: rgba(2, 2, 2, 0.84);
@@ -118,6 +124,17 @@ nav li:last-child {
     cursor: pointer;
     margin-right: 10px;
     color: rgba(255, 255, 255, 0.429);
+}
+
+.intro {
+    font-family: cursive;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgba(255, 255, 255, 0.591);
 }
 
 .creas-grid {
