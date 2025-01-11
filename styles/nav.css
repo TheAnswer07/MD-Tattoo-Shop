@@ -75,7 +75,7 @@ nav li:last-child {
 position: relative;
 width: 750px;
 height: 750px;
-background: #a93737;
+/* background: #a93737; */
 border-radius: 50%;
 display: flex;
 align-items: center;
@@ -155,14 +155,20 @@ align-items: center;
 } */
 
 .intro {
-    font-family: cursive;
+    background: transparent;
+    /* font-weight: 400;
+    font-style: normal; */
     font-size: 35px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     margin-top: 335px;
     margin-left: 50px;
-    margin-right: 50px;
-    color: rgba(255, 255, 255, 0.591);
+    margin-right: 50px; */
+    /* color: rgba(255, 255, 255, 0.621); */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 10s linear infinite;
 }
 
 .creas-grid {
@@ -175,6 +181,24 @@ align-items: center;
 
 .menu-btn {
     display: none;
+}
+
+.intro span{
+    font-family: "New Rocker", serif;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.608);
+    left: 50%;
+    font-size: 1.5em;
+    transform-origin: 0 350px;
+}
+
+@keyframes rotateText {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 @media(max-width: 800px) {
