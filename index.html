@@ -20,7 +20,7 @@
 
 <body>
 
-    <nav class="nav">
+    <nav class="navbar">
         <ul class="sidebar">
             <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="21px"
                         viewBox="0 -960 960 960" width="21px" fill="#5f6368">
@@ -29,6 +29,7 @@
                     </svg></a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Artists</a></li>
+            <li><a href="#">Tattoos</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -37,6 +38,7 @@
         <ul>
             <li class="hideOnMobile"><a href="#">Home</a></li>
             <li class="hideOnMobile"><a href="#">Artists</a></li>
+            <li class="hideOnMobile"><a href="#">Tattoos</a></li>
             <li class="hideOnMobile"><a href="#">Shop</a></li>
             <li class="hideOnMobile"><a href="#">Contact</a></li>
             <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="31px"
@@ -191,7 +193,13 @@
         const intro = document.querySelector('.intro p');
         intro.innerHTML = intro.innerText.split("").map(
             (char, i) => `<span style="transform: rotate(${i * 8}deg)">${char}</span>`
-        ).join("")
+        ).join("");
+    </script>
+    <script>
+        window.addEventListener("scroll", function () {
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("navbar", window.scrollY > 0)
+        })
     </script>
 </body>
 
