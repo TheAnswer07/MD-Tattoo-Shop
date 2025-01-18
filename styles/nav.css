@@ -183,6 +183,66 @@ nav li:last-child {
     display: none;
 }
 
+footer {
+    background-color: black;
+}
+
+.smIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.smIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.smIcons a i {
+    font-size: 2em;
+    color: white;
+    /* opacity: 0.9; */
+    transition: transform 0.3s ease;
+}
+
+.smIcons a:hover {
+    transition: 0.5s;
+}
+
+.smIcons a:hover i {
+    transform: scale(1.35);
+}
+
+.footerBottom {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.footerBottom p {
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
 
 @keyframes rotateText {
     0% {
