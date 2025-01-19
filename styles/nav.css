@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 body::-webkit-scrollbar {
@@ -47,6 +47,7 @@ nav {
 
 nav .logo-img {
     position: relative;
+    height: 90px;
     transition: 0.7s;
 }
 
@@ -165,9 +166,9 @@ nav li:last-child {
 .intro span {
     font-family: "New Rocker", serif;
     position: absolute;
-    color: rgba(255, 255, 255, 0.608);
+    color: rgba(255, 255, 255, 0.315);
     left: 50%;
-    font-size: 1.5em;
+    font-size: 1.7em;
     transform-origin: 0 370px;
 }
 
