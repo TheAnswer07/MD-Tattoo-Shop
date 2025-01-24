@@ -21,6 +21,10 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(35, 38, 38);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     width: 100%;
     position: fixed;
