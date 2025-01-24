@@ -250,7 +250,7 @@ footer {
     text-decoration: none;
     padding: 10px;
     background-color: black;
-    margin: 5px;
+    margin-bottom: 0;
     border-radius: 50%;
 }
 
@@ -279,7 +279,7 @@ footer {
     margin: 20px;
 }
 
-.footerAddress p, .diff-sections {
+.footerAddress p {
     background-color: black;
     display: flex;
     align-items: center;
@@ -287,7 +287,21 @@ footer {
     padding: 50px 30px 5px;
     text-align: center;
     margin-bottom: 0;
-    margin-top: 1px;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+
+.footerAddress p, #tattoos, #artists {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px 5px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
     color: white;
     font-size: 1.35em;
     text-decoration: none;
